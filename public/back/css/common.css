@@ -114,3 +114,10 @@ ul {
   height: 400px;
   background-color: skyblue;
 }
+
+/* 表格居中 */
+.table.table-bordered tr,
+.table.table-bordered td {
+  text-align: center;
+  vertical-align: middle;
+}
