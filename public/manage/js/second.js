@@ -56,7 +56,7 @@ $(function() {
       success: function(info) {
         console.log(info)
         // 将模板和数据相结合, 渲染到下拉菜单中
-        var htmlStr = template('secondTpl', info)
+        var htmlStr = template('dropdownTpl', info)
         $('.dropdown-menu').html(htmlStr)
       }
     })
