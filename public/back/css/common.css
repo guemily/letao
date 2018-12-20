@@ -116,7 +116,7 @@ ul {
 }
 
 /* 表格居中 */
-.table.table-bordered tr,
+.table.table-bordered th,
 .table.table-bordered td {
   text-align: center;
   vertical-align: middle;
